@@ -4,7 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- Roboto fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -12,6 +15,125 @@
     <title>Foxtar</title>
   </head>
   <body>
+    <!-- Header start -->
+    <header id="header">
+      <div class="top-header">
+        <div class="container d-flex align-items-center">
+          <!-- logo .mr-auto -->
+          <!-- Help text -->
+          <!-- List dropdowns -->
+          <li class="dropdown show">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownBasket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="far fa-bell text-align-center"></i>
+              <div class="count bell"><span>8</span></div>
+              
+            </a>
+            <div class="dropdown-menu dropdown-notification dropdown-basket" aria-labelledby="dropdownMenuLink">
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo2.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-category">Need WP Help!</span>
+                  <span class="item-date">01 Dec, 2016</span>
+                </div>
+                <i class="far fa-bell"></i>
+              </div>
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo2.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-category">Wordpress</span>
+                  <span class="item-date">26 Nov, 2016</span>
+                </div>
+                <i class="far fa-bell"></i>
+              </div>
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo2.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-category">Psd Template Help!</span>
+                  <span class="item-date">26 Nov, 2016</span>
+                </div>
+                <a href="#"><i class="far fa-bell"></i></a>
+              </div>
+            </div>
+           </li>
+           <li class="dropdown show">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownBasket" data-toggle="dropdown"      aria-haspopup="true" aria-expanded="false">
+              <i class="far fa-envelope text-align-center"></i>
+              <div class="count envelope"><span>5</span></div>
+            </a>
+            <div class="dropdown-menu dropdown-notification dropdown-basket" aria-labelledby="dropdownMenuLink">
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo2.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-name">Kazi Fahim</span>
+                  <span class="item-category">Need WP Help!</span>
+                  <span class="item-date">01 Dec, 2016</span>
+                </div>
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo2.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-name">Richi Lenal</span>
+                  <span class="item-category">Wordpress</span>
+                  <span class="item-date">26 Nov, 2016</span>
+                </div>
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo2.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-name">PsdBosS</span>
+                  <span class="item-category">Psd Template Help!</span>
+                  <span class="item-date">26 Nov, 2016</span>
+                </div>
+                <a href="#"><i class="far fa-envelope"></i></a>
+              </div>
+            </div>
+           </li>
+           <li class="dropdown show">
+            <a class="dropdown-toggle" href="#" role="button" id="dropdownBasket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-shopping-cart text-align-center"></i>
+              <div class="count shopping-cart"><span>8</span></div>
+              
+            </a>
+            <div class="dropdown-menu dropdown-notification dropdown-basket" aria-labelledby="dropdownMenuLink">
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-name">Grand Ballet</span>
+                  <span class="item-category">Wordpress</span>
+                  <span class="item-price">$59</span>
+                </div>
+              </div>
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-name">Grand Ballet</span>
+                  <span class="item-category">Wordpress</span>
+                  <span class="item-price">$59</span>
+                </div>
+              </div>
+              <div class="dropdown-item d-flex align-items-center">
+                <a href="#"><img src="img\Item-photo.png" alt=""></a>
+                <div class="item-content">
+                  <span class="item-name">Grand Ballet</span>
+                  <span class="item-category">Wordpress</span>
+                  <span class="item-price">$59</span>
+                </div>
+              </div>
+              <div class="total-price d-flex justify-content-between align-items-center">
+                <span>Total</span>
+                <span>$118</span>
+              </div>
+              <div class="go-checkout d-flex justify-content-between">
+                <button type="button" class="btn-cart cart">Go to Cart</button>
+                <button type="button" class="btn-cart checkout">Go to Checkout</button>
+              </div>
+            </div>
+           </li>
+        </div>
+      </div>
+    </header>
     
 
     <!-- Optional JavaScript -->

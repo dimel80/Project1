@@ -1,0 +1,26 @@
+/* Cart buttons */
+/* .go-to-cart {
+
+} */
+.dropdown-menu .go-checkout {
+    padding: 18px 18px 12px 18px;
+}
+.dropdown .btn-cart{
+font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   font-size: 14px;
+   color: #fff;
+}
+.go-checkout .cart {
+    width: 105px;
+    height: 35px;
+    background-color: rgb(149, 200,90);
+}
+.go-checkout .checkout {
+    width: 123px;
+    height: 35px;
+    background-color: rgb(232, 86,71);
+}
+.container li + li {
+    margin-left: 15px;
+}
